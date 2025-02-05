@@ -12,7 +12,7 @@ print("There are %d people in this room." % 28)
 
 print("Pi is equal to %f" % 3.1416)
 
-# Prints the value of Pi with six decimal places.
+# Prints the value of Pi with seven decimal places.
 
 print("%s's final score is %d" % ("Joe", 215))  
 
