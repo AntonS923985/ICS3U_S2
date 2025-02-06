@@ -27,5 +27,5 @@ radius = input("Please input a radius: ")
 radius = float(radius)
 areasemicircle = 0.5*math.pi*math.pow(radius, 2)
 areasquare = 4*math.pow(radius, 2)
-areatotal = areasemicircle + areasqare
+areatotal = areasemicircle + areasquare
 print("The total area of the window is", areatotal)
