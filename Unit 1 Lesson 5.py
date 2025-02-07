@@ -17,7 +17,7 @@ print("The area of a square of side length", length, "is:", area)
 """
 It stopped executing code because there were no more lines of 
 code to run. I inputted the integer 90, and I got 8100, which is 
-accurate to what i got on my calculator.
+accurate to what I got on my calculator.
 """
 
 #Modify
