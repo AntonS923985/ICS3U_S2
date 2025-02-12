@@ -6,6 +6,6 @@ product = num1*num2
 product = int(product)
 rem = product % 2
 if(rem == 0):
-      print("The product of", num1, "*", num2, "is an even number.")
+    print("The product of", num1, "*", num2, "is an even number.")
 else:
     print("The produce of", num1, "*", num2, "is an odd number.")
