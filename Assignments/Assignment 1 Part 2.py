@@ -8,4 +8,3 @@ if(length == 0):
 else:
     diagonal = length * math.sqrt(3)
     print("The inner diagonal length for a cube with a side length of", length, "is %.2f" % diagonal)
-input("Press Enter to exit...")
