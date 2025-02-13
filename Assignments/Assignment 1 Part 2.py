@@ -1,5 +1,7 @@
 import math
+
 print("This program will find the inner diagonal for any edge length provided!")
+
 length = int(input("Please input any non-zero number for the edge length of your cube:"))
 if(length == 0):
     print("Edge length of zero will result in zero! Please try again.")
