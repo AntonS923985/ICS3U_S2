@@ -22,9 +22,11 @@ pamt = remn // 1
 
 if remq == 0:
     print(change, "cents can be", qamt, "quarters.")
+if namt == 0:
+  print(change, "cents can be", qamt, "quarters,", namt, "nickels, and", pamt, "pennies.")
 elif remd == 0:
     print(change, "cents can be", qamt, "quarters, and", damt, "dimes.")
+if namt == 0:
+  print(change, "cents can be", qamt, "quarters,", damt, "dimes, and", pamt, "pennies.")
 elif remn == 0:
     print(change, "cents can be", qamt, "quarters,", damt, "dimes, and", namt, "nickels.")
-else:
-    print(change, "cents can be", qamt, "quarters,", damt, "dimes,", namt, "nickels, and", pamt, "pennies.")
