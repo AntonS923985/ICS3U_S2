@@ -21,10 +21,10 @@ pamt = remn // 1
 # rem for pennies is not needed
 
 if remq == 0:
-    print(change, "cents can be", qamt, "quarters")
+    print(change, "cents can be", qamt, "quarters.")
 elif remd == 0:
-    print(change, "cents can be", qamt, "quarters,", damt, "dimes")
+    print(change, "cents can be", qamt, "quarters, and", damt, "dimes.")
 elif remn == 0:
-    print(change, "cents can be", qamt, "quarters,", damt, "dimes,", namt, "nickels")
+    print(change, "cents can be", qamt, "quarters,", damt, "dimes, and", namt, "nickels.")
 else:
-    print(change, "cents can be", qamt, "quarters,", damt, "dimes,", namt, "nickels,", pamt, "pennies.")
+    print(change, "cents can be", qamt, "quarters,", damt, "dimes,", namt, "nickels, and", pamt, "pennies.")
