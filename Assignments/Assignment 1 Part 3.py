@@ -17,11 +17,12 @@ remn = remd % 5
 pamt = remn  # Directly the number of pennies left
 
 # Print the result based on nonzero coin values
+print(change, "cents can be:")
 if qamt >= 0:
-  print(change, "cents can be", qamt, "quarters")
+  print(qamt, "quarters")
 if damt > 0:
   print(damt, "dimes")
 if namt > 0:
   print(namt, "nickels")
 if pamt > 0:
-  print("and", pamt, "pennies")
+  print(pamt, "pennies")
