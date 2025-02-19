@@ -1,6 +1,6 @@
-change = int(input("Please input the amount of money in cents: "))
+change = int(input("Please input the amount of money in cents: ")) # Asks the user for an amount of money and converts to int data type
 
-print("Checking for value above one dollar...")
+print("Checking for value above one dollar...") # Informs the user that dollar amount is being removed if they inputted above a dollar
 
 if change >= 100:
     change = change % 100  # Removes dollar value if present
