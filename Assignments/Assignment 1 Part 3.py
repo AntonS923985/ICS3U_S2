@@ -1,6 +1,6 @@
 change = int(input("Please input the amount of money in cents: "))
 
-print("Removing dollar value...")
+print("Checking for value above one dollar...")
 
 if change >= 100:
     change = change % 100  # Removes dollar value if present
@@ -16,13 +16,16 @@ remn = remd % 5
 
 pamt = remn  # Directly the number of pennies left
 
-# Print the result based on nonzero coin values
-print(change, "cents can be:")
-if qamt >= 0:
+# Prints the results, not including coins that are not included in the final result
+if qamt == 0:
+  print("You have one dollar.") # If 100 is entered, returns with this message instead of zero quarters
+else:
+  print(change, "cents can be:")
+if qamt > 0:
   print(qamt, "quarters")
 if damt > 0:
   print(damt, "dimes")
 if namt > 0:
   print(namt, "nickels")
 if pamt > 0:
-  print(pamt, "pennies")
+  print(pamt, "pennies") 
