@@ -8,13 +8,11 @@ num2 = int(input("Please enter another number:")) # Requests another number from
 
 # Classified both variables as int data types
 
-product = num1*num2 # Multiplies the two numbers entered by the user
-
-product = int(product) # Classifies the product of the previous multiplication as an int data type
-
-rem = product % 2 # Divides the product of multiplication by 2 to check if it is even or odd based on the remainder
-
-if(rem == 0): # Checks if remainder is zero
-    print("The product of", num1, "times", num2, "is an even number.") # Prints that the product is even if previous statement is true
-else: # Checks if remainder is not zero
-    print("The produce of", num1, "times", num2, "is an odd number.") # Prints that the product is odd if the statement on like 17 is false
+if(num1 % 2 == 0 and num2 % 2 == 0): # Preforms a check if both inputted values have a remainder of zero when divided by two
+  print("The product of", num1, "and", num2, "will be an even number.") # Prints if both values have a remainder of two
+  
+elif(num1 % 2 == 1 and num2 % 2 == 0) or (num1 % 2 == 0 and num2 % 2 == 1): # Checks if one number has a remainder of zero when divided by two and if one has zero, both numbers checked
+  print("The product of", num1, "and", num2, "will be an even number.") # Prints if one number has a remainder of zero when divided by two and if one has a remainder of zero.
+  
+elif(num1 % 2 == 1 and num2 % 2 == 1): # Checks if both inputted values have a remainder of one if divided by zero if the previous if and elif statements are false.
+  print("The product of", num1, "and", num2, "will be an odd number.") # Prints if both numbers have a remainder of one if divided by two
