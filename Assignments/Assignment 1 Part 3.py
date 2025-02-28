@@ -1,3 +1,16 @@
+"""
+Variable Dictionary:
+
+change: amount of money inputted
+qamt: amount of quarters
+remq: money remaining after dividing by 25
+damt: amount of dimes
+remd: money remaining after dividing remq by 10
+namt: amount of nickels
+remn: money remaining after dividing remd by 5
+pamt: amount of pennies, equal to remn
+"""
+
 change = int(input("Please input the amount of money in cents: ")) # Asks the user for an amount of money and converts to int data type
 
 print("Checking for value above one dollar...") # Informs the user that dollar amount is being removed if they inputted above a dollar
