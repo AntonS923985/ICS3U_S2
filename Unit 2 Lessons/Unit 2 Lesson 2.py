@@ -32,17 +32,17 @@ while trinumcount <= 6: # Which stage of the triangular number the program will 
     addnum += toaddnum
     trinumcount += 1
   if trinumcount == 2:
-    print("The", trinumcount, "nd triangluar number is", trinum)
+    print("The %dnd triangular number is %d" % (trinumcount, trinum))
     trinum += addnum
     addnum += toaddnum
     trinumcount += 1
   if trinumcount == 3:
-    print("The", trinumcount, "rd triangluar number is", trinum)
+    print("The %drd triangular number is %d" % (trinumcount, trinum))
     trinum += addnum
     addnum += toaddnum
     trinumcount += 1
   if trinumcount > 3 or trinumcount == 5:
-    print("The", trinumcount, "th triangular number is", trinum)
+    print("The %dth triangular number is %d" % (trinumcount, trinum))
     trinum += addnum
     addnum += toaddnum
     trinumcount += 1
