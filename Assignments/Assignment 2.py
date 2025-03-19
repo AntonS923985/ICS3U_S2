@@ -16,7 +16,7 @@ guessnum = 6 # sets the number of guesses to 6
 print("I am thinking of a number between 1 and 100. You have 6 guesses, and I will tell you if you should guess higher or lower based on your input! Guess correctly in 6 or less tries and you win.") # tells the user about the program
 correct = False # sets correct to false so the program doesn't immediately end
 while not correct: # loops while a correct answer has not been inputted
-  guess = int(input("What is your guess? ")) # asks the user for a guess
+  guess = int(input("What is your guess? You have %d guesses. " % guessnum)) # asks the user for a guess
   correct = (guess == num) # makes it so correct becomes true if the guess is equal to the generated number
   if correct: # checks if guess is equal to the generated number
     print("You got it! Nice job.") # informs the user that they guessed correctly and stops further guessing
