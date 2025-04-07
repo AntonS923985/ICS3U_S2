@@ -10,18 +10,6 @@ Author : Anton Simashkevich
      guess (int) = a guess inputted by the user
 """
 
-"""
-Author : Anton Simashkevich
-   Revison date : 18 March 2025
-   Program : A Number Guessing Game Assignment
-   Description : A number guessing game with a range of numbers from 1 to 100.
-   VARIABLE DICTIONARY :
-     num (int) = random number chosen by the program
-     guessnum (String) = amount of guesses given to the user
-     correct (Boolean) = a check if the users guess is correct or not.
-     guess (int) = a guess inputted by the user
-"""
-
 import random # allows for random number generation
 num = random.randrange(1, 100, 1) # the range in which numbers can be generated, 1 to 100 in this case
 guessnum = 6 # sets the number of guesses to 6
