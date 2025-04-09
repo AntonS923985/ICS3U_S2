@@ -16,8 +16,8 @@ list = ["civic", "level", "kayak", "madam", "tacocat", "racecar", "student", "ro
 
 print("Palindrome program!") # Print the starting message
 
-for c in range(len(list)): # Loop through each word in the list using its index
-    word = list[c] # Get the current word from the list
+for c in range(len(list)): # Go through each word in the list using its index
+    word = list[c] # Take the current word from the list
     wlen = len(word) - 1 # Store the index of the last character in the word
     is_palindrome = True # Assume the word is a palindrome to start
     d = 0 # Start comparing from the first character
@@ -25,7 +25,7 @@ for c in range(len(list)): # Loop through each word in the list using its index
     while d < len(word) // 2:  # Loop while d is less than half the length of the word (only need to check halfway)
         if word[d] != word[wlen - d]: # If the character from the front doesn't match the corresponding back character
             is_palindrome = False # It's not a palindrome
-            d = len(word) # Force the loop to exit by pushing d past the limit
+            d = len(word) # Force the loop to stop by pushing d past the limit
         else:
             d += 1 # Move to the next character toward the center
             
