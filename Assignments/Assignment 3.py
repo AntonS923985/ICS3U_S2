@@ -33,3 +33,5 @@ for c in range(len(list)): # Go through each word in the list using its index
         print("%s is a palindrome" % word) # If no mismatches were found
     else:
         print("%s is not a palindrome" % word) # If a mismatch was found
+
+print("Goodbye!")
