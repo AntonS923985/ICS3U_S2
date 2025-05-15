@@ -2,7 +2,6 @@
 #
 # Place your code below!
 
-"""
 Predict: I believe this code will add the numbers 7 and 2, and 
 print them in a float data type.
 
@@ -11,11 +10,9 @@ def add(a: float, b: float) -> float:
    return sum
 
 print(add(7, 2))
-"""
-
 
 # Modify 1
-"""
+
 # Print them in a float data type.
 
 def add(a: float, b: float) -> float:
@@ -24,7 +21,6 @@ def add(a: float, b: float) -> float:
 
 sum = add(7.0, 2.0)
 print(sum)
-"""
 
 # Modify 2
 
